@@ -1,0 +1,30 @@
+Under Collection > Rollable Tables, click on +Add
+
+Create a Rollable Table called "dice" (no quotes)
+
+Add the 1, 2, 3, 4, 5, 6 die face images to this table.  Make sure "Players can roll from table" is checked. The weight is 1 and they don't need a name.
+
+Go to Collection > Macros.  +Add the following Macros:
+
+Name: 1
+/roll 1t[dice]
+
+Name: 2
+/roll 2t[dice]
+
+Name: 3
+/roll 3t[dice]
+
+Name: 4
+/roll 4t[dice]
+
+Name: 5
+/roll 5t[dice]
+
+Name: Dice
+/roll ?{Number of Dice|1}t[dice]
+
+
+Make sure they all say "Visible to All Players".   Also click the “In Bar” checkbox and it should add them to the bottom left corner of your Roll20 screen.
+
+If you'd like to add the second set as well, you just have to change "dice" in the above macros to be the name of the new rollable table.
